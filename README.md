@@ -1,5 +1,7 @@
 # faith — apprendre OpenGL avec le jeu de la vie
 
+![Jeu de la vie en 25×25](assets/demo.gif)
+
 J'ai fait ce projet pour apprendre OpenGL. Le jeu de la vie sert de prétexte : il donne une grille qui change à chaque frame, et il faut l'afficher avec le GPU.
 
 La base du code reprend le tutoriel [Hello Triangle de LearnOpenGL](https://learnopengl.com/Getting-started/Hello-Triangle) (fenêtre GLFW, GLAD, shaders, VAO / VBO / EBO). Je l'ai ensuite découpé en classes et étendu avec une texture, des uniforms et un fragment shader qui fait le rendu.

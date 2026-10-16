@@ -3,8 +3,8 @@
 
 int main()
 {
-	GameOfLife	game(50, 50);
-	Renderer	renderer(50, 50);
+	GameOfLife	game(10, 10);
+	Renderer	renderer(10, 10);
 
 	game.randomInit();
 	if (!renderer.init())
